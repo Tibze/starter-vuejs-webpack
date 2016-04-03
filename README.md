@@ -1,6 +1,6 @@
 # starter vuejs-webpack
 
-This is a full stack to start a project with fabulous framework : VueJS (1.X.X) and Webpack
+This is a full stack to start a project with VueJS (1.X.X) and Webpack
 
   - Gulp
   - Webpack
