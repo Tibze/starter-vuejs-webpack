@@ -33,6 +33,11 @@ Build for production
 $ gulp build
 ```
 
+Test
+```sh
+$ npm test
+```
+
 It will generate a production package in /dist folder
 
 
