@@ -1,9 +1,20 @@
 <script>
+
+  import Events from '../events' 
+
   export default {
     name: "Home",
     data(){
     	return {
     	}
+    },
+    ready(){
+        this.$on(Events.WINDOW_RESIZE,this.onResize)
+    },
+    methods:{
+        onResize(){
+            console.log("resize in Home");
+        }
     }
   }
 </script>
