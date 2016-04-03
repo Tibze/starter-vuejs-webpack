@@ -1,0 +1,27 @@
+/** IMPORTS **/
+@import "./variables.scss";  
+
+/** GLOBALS **/
+body{
+  color: $black; 
+}
+
+.vue-logo {
+	width:100px;
+	height:100px;
+	background:url('/assets/images/logo.png') no-repeat;
+	background-size:100%;
+	margin:0 auto;
+}
+
+/* always present */
+.fade-transition {
+  transition: all .7s ease;
+  opacity:1;
+}
+
+/* .expand-enter defines the starting state for entering */
+/* .expand-leave defines the ending state for leaving */
+.fade-enter, .fade-leave {
+  opacity: 0;
+}
