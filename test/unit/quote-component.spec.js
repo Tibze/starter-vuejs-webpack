@@ -1,5 +1,5 @@
 var Vue = require('vue')
-var Quote = require('../../src/components/Quote.vue')
+var Quote = require('../../app/src/sections/Quote.vue')
 
 describe('Quote.vue', function () {
 

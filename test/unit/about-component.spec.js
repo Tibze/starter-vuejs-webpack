@@ -1,6 +1,6 @@
 // test/component-a.spec.js
 var Vue = require('vue')
-var About = require('../../src/components/About.vue')
+var About = require('../../app/src/sections/About.vue')
 
 describe('About.vue', function () {
   it('should render correct message', function () {
