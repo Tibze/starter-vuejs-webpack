@@ -1,10 +1,9 @@
-# starter webapp-es6
+# starter vuejs-webpack
 
-This is a full stack to start a webapp with ES6
+This is a full stack to start a project with fabulous framework : VueJS (1.X.X) and Webpack
 
   - Gulp
-  - Bower
-  - Babel
+  - Webpack
   - Browser-Sync
   - SASS
   - ImageMin
@@ -23,10 +22,9 @@ $ npm install -g gulp
 
 Dev
 ```sh
-$ git clone git@github.com:Tibze/starter-webapp-es6.git my-webapp-with-es6
-$ cd my-webapp-with-es6
+$ git clone git@github.com:Tibze/starter-vuejs-webpack.git my-webapp-with-vuejs
+$ cd my-webapp-with-vuejs
 $ npm install
-$ bower install
 $ gulp
 ```
 
@@ -36,10 +34,6 @@ $ gulp build
 ```
 
 It will generate a production package in /dist folder
-
-### Todos
-
- - ...
 
 
 
