@@ -12,6 +12,9 @@ module.exports = function (config) {
     preprocessors: {
       'test/unit/index.js': ['webpack']
     },
+    colors:true,
+    logLevel:config.LOG_INFO,
+    reporters: ['progress'],
     // use the webpack config
     webpack: webpackConfig,
     // avoid walls of useless text
